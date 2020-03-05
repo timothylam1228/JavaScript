@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+  
 }
 .button{
     width: 50;
@@ -8,11 +9,25 @@
     font-size: 25;
     margin: 2;
     cursor: pointer;
+    background: #607d8b;
+    color:white;
 }
 .textview{
     width: 220;
     margin: 5;
     font-size: 25;
     padding: 5;
+    border:none;
+    color: #607d8b;
     
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translateX(-50%)translateY(-50%);
+    background-color: paleturquoise;
+}
+.bg{
+    background: linear-gradient(to right);
 }
