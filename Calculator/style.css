@@ -3,22 +3,55 @@
     padding: 0;
   
 }
+.buttonNumber{
+    width: 50;
+    height: 50;
+    font-size: 25;
+    margin: 2;
+    cursor: pointer;
+    background: #0e4150;
+    color:white;
+
+}
 .button{
     width: 50;
     height: 50;
     font-size: 25;
     margin: 2;
     cursor: pointer;
-    background: #607d8b;
+    background: #ff9100;
     color:white;
+
+}
+.buttonClear{
+    width: 50;
+    height: 50;
+    font-size: 25;
+    margin: 2;
+    cursor: pointer;
+    background: #ff0062;
+    color:white;
+
+}
+.buttonEqual{
+    width: 50;
+    height: 50;
+    font-size: 25;
+    margin: 2;
+    cursor: pointer;
+    background: #800064;
+    color:white;
+
 }
 .textview{
-    width: 220;
+    width: 272;
     margin: 5;
     font-size: 25;
     padding: 5;
     border:none;
-    color: #607d8b;
+    background: #fdfdfd3b;
+    color: #fafafa;
+    
     
 }
 .main{
@@ -26,7 +59,7 @@
     top: 50%;
     left: 50%;
     transform:translateX(-50%)translateY(-50%);
-    background-color: paleturquoise;
+    background-color: rgb(0, 0, 0);
 }
 .bg{
     background: linear-gradient(to right);
